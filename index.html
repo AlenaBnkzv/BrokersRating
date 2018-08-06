@@ -1,0 +1,1207 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Рейтинги брокеров</title>
+</head>
+<body data-spy="scroll" data-target="#header" data-offset="200">
+<header id="header" class="header header_style-1">
+    <div class="container">
+        <div class="nav__row row no-gutters">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <ul id="header-nav" class="header__nav clearfix">
+                <li class="header__nav_item">
+                    <a class="js-link" href="#rating">Рейтинги</a>
+                </li>
+                <li class="header__nav_item">
+                    <a class="js-link" href="#reviews">Отзывы</a>
+                </li>
+                <li class="header__nav_item">
+                    <a class="js-link" href="#articles">Статьи</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="banner-sliders">
+    <div class="banner banner-slide" style="background-image: url(images/slide1.png)">
+        <div class="container banner-container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                    <h1 class="banner__title title-md">Рейтинги брокеров</h1>
+                    <div class="banner__info">
+                        <p>Надежность торговли на рынке Forex - высший приоритет.</p>
+                        <p>
+                            <span class="text-block">Используя функциональный и удобный рейтинг Форекс брокеров от brokers-otzyvi.ru каждый инвестор</span>
+                            <span class="text-block">получает возможность найти и выбрать подходящую компанию для торговли на финансовом рынке.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="banner banner-slide" style="background-image: url(images/slide2.png)">
+        <div class="container">
+            <h1 class="banner__title">Рейтинги брокеров</h1>
+            <div class="banner__info">
+                <p>Надежность торговли на рынке Forex - высший приоритет.</p>
+                <p>
+                    <span class="text-block">Используя функциональный и удобный рейтинг Форекс брокеров от brokers-otzyvi.ru каждый инвестор</span>
+                    <span class="text-block">получает возможность найти и выбрать подходящую компанию для торговли на финансовом рынке.</span>
+                </p>
+            </div>
+        </div>
+    </div>-->
+</div>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://ru.tradingview.com" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+        {
+            "symbols": [
+            {
+                "title": "S&P 500",
+                "proName": "INDEX:SPX"
+            },
+            {
+                "title": "NASDAQ 100",
+                "proName": "INDEX:IUXX"
+            },
+            {
+                "title": "EUR/USD",
+                "proName": "FX_IDC:EURUSD"
+            },
+            {
+                "title": "BTC/USD",
+                "proName": "BITFINEX:BTCUSD"
+            },
+            {
+                "title": "ETH/USD",
+                "proName": "BITFINEX:ETHUSD"
+            }
+        ],
+            "locale": "ru"
+        }
+    </script>
+</div>
+<!-- TradingView Widget END -->
+<section id="rating" class="section__rating section" style="background-image: url(images/rating_bg.png)">
+    <div class="container">
+        <div class="section__content">
+            <span class="section__rating_icon">
+                <object class="icon__trophy" type="image/svg+xml" data="images/trophy.svg">
+                </object>
+            </span>
+            <h3 class="section__rating_title section_title">Лучшие Брокеры и Инвестиционные компании 2018</h3>
+            <p class="section__rating_info section_info">
+                <span class="text-block">Каждому посетителю сайта, независимо от того, начинающий он трейдер, или профессионал, предлагается</span>
+                <span class="text-block">проголосовать за лучшую с его точки зрения брокерскую компанию.</span>
+            </p>
+        </div>
+        <div class="section__rating_table">
+        <table id="table-rating" class="table__rating" data-page-length='10'>
+            <thead class="table__header">
+            <tr class="table_row">
+                <td class="table__header_item">Название брокера</td>
+                <td class="table__header_item">Рейтинг</td>
+                <td class="table__header_item">Отзывы</td>
+                <td class="table__header_item"></td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/hycm.png" alt="">
+                    </span>
+                    <span class="company_name">HY Capital Markets</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/forex.com.png" alt="">
+                    </span>
+                    <span class="company_name">FOREX.com</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/alpari.png" alt="">
+                    </span>
+                    <span class="company_name">Alpari</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/fibogroup.png" alt="">
+                    </span>
+                    <span class="company_name">FIBO Group</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/sfxmarket.png" alt="">
+                    </span>
+                    <span class="company_name">SFX MARKETS</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/forex.com.png" alt="">
+                    </span>
+                    <span class="company_name">FOREX.com</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/finam.png" alt="">
+                    </span>
+                    <span class="company_name">Finam</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/teletrade.png" alt="">
+                    </span>
+                    <span class="company_name">Teletrade</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/fxpro.png" alt="">
+                    </span>
+                    <span class="company_name">FxPro</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/teletrade.png" alt="">
+                    </span>
+                    <span class="company_name">Teletrade</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/sfxmarket.png" alt="">
+                    </span>
+                    <span class="company_name">SFX MARKETS</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/sfxmarket.png" alt="">
+                    </span>
+                    <span class="company_name">SFX MARKETS</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/sfxmarket.png" alt="">
+                    </span>
+                    <span class="company_name">SFX MARKETS</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/alpari.png" alt="">
+                    </span>
+                    <span class="company_name">Alpari</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/alpari.png" alt="">
+                    </span>
+                    <span class="company_name">Alpari</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/alpari.png" alt="">
+                    </span>
+                    <span class="company_name">Alpari</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/alpari.png" alt="">
+                    </span>
+                    <span class="company_name">Alpari</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            <tr class="table_row">
+                <td class="table_cell">
+                    <span class="company_logo">
+                        <img src="images/alpari.png" alt="">
+                    </span>
+                    <span class="company_name">Alpari</span>
+                </td>
+                <td class="table_cell">
+                    <div class="rating top__rating">
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating table-star-rating">
+                            <i class="star table-star star-static star-empty fas fa-star"></i>
+                            <i class="star table-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </td>
+                <td class="table_cell">
+                    <a class="table_cell_link" href="">Отзывы 3</a>
+                </td>
+                <td class="table_cell_btn">
+                    <a href="/" class="btn btn-round btn-md" data-toggle="modal" data-target="#reviews-modal">Добавить отзыв</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
+</section>
+<section class="section__top section text-center">
+    <div class="container">
+        <div class="section__content">
+            <span class="section__top_icon">
+                <object class="icon__favorites" type="image/svg+xml" data="images/favorites.svg">
+                </object>
+            </span>
+            <h3 class="section__top_title section_title">Топ форекс брокеры</h3>
+        </div>
+        <div class="section__top_col_container clearfix">
+            <div class="row">
+                <div class="section__top_col top__col">
+                    <div class="top__col_number">1</div>
+                    <div class="top__col_company-logo">
+                        <img src="images/startfx-md.png" alt="">
+                    </div>
+                    <div class="top__col_company-name">StartFX</div>
+                    <div class="top__col_company-rate">
+                        <div class="rating top__rating">
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__top_col top__col">
+                    <div class="top__col_number">2</div>
+                    <div class="top__col_company-logo">
+                        <img src="images/forex4you-md.png" alt="">
+                    </div>
+                    <div class="top__col_company-name">Forex4you</div>
+                    <div class="top__col_company-rate">
+                        <div class="rating top__rating">
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__top_col top__col">
+                    <div class="top__col_number">3</div>
+                    <div class="top__col_company-logo">
+                        <img src="images/icm-md.png" alt="">
+                    </div>
+                    <div class="top__col_company-name">ICM Brokers</div>
+                    <div class="top__col_company-rate">
+                        <div class="rating top__rating">
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                            <div class="star-rating top-star-rating">
+                                <i class="star top-star star-static star-empty fas fa-star"></i>
+                                <i class="star top-star star-static star-half fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section__top_col top__col">
+                <div class="top__col_number">4</div>
+                <div class="top__col_company-logo">
+                    <img src="images/finam-md.png" alt="">
+                </div>
+                <div class="top__col_company-name">Finam</div>
+                <div class="top__col_company-rate">
+                    <div class="rating top__rating">
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="section__top_col top__col">
+                <div class="top__col_number">5</div>
+                <div class="top__col_company-logo">
+                    <img src="images/fxpro-md.png" alt="">
+                </div>
+                <div class="top__col_company-name">FxPro</div>
+                <div class="top__col_company-rate">
+                    <div class="rating top__rating">
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                        <div class="star-rating top-star-rating">
+                            <i class="star top-star star-static star-empty fas fa-star"></i>
+                            <i class="star top-star star-static star-half fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="reviews" class="section__reviews section">
+    <div class="container">
+        <div class="section__content text-center">
+            <h3 class="section__reviews_title section_title">Последние отзывы</h3>
+        </div>
+        <div class="section__reviews_row row clearfix">
+            <div class="section__reviews_col col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="reviews__col_wrapper">
+                    <div class="reviews__col_company-logo">
+                        <img src="images/startfx-md.png" alt="">
+                    </div>
+                    <div class="reviews__col_detailes">
+                        <span class="reviews__col_user-name">Ivan Ivanov</span>
+                        <span class="reviews__col_time">20:16 04 апреля 2018</span>
+                    </div>
+                    <div class="reviews__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+            </div>
+            <div class="section__reviews_col col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="reviews__col_wrapper">
+                    <div class="reviews__col_company-logo">
+                        <img src="images/startfx-md.png" alt="">
+                    </div>
+                    <div class="reviews__col_detailes">
+                        <span class="reviews__col_user-name">Ivan Ivanov</span>
+                        <span class="reviews__col_time">20:16 04 апреля 2018</span>
+                    </div>
+                    <div class="reviews__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+            </div>
+            <div class="section__reviews_col col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="reviews__col_wrapper">
+                    <div class="reviews__col_company-logo">
+                        <img src="images/startfx-md.png" alt="">
+                    </div>
+                    <div class="reviews__col_detailes">
+                        <span class="reviews__col_user-name">Ivan Ivanov</span>
+                        <span class="reviews__col_time">20:16 04 апреля 2018</span>
+                    </div>
+                    <div class="reviews__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__reviews_btn text-center">
+            <a href="reviews.html" class="btn btn-round btn-lg">Читать все отзывы</a>
+        </div>
+    </div>
+</section>
+<section id="articles" class="section__articles section">
+    <div class="container">
+        <div class="section__content text-center">
+            <h3 class="section__articles_title section_title">Статьи о форекс</h3>
+        </div>
+        <div class="section__articles_row clearfix">
+            <div class="section__articles_col col">
+                <div class="article__col_img">
+                    <img src="images/article_1.png" alt="">
+                </div>
+                <div class="section__articles_content">
+                    <div class="article__col_time">2 часа назад</div>
+                    <div class="article__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</div>
+                    <div class="article__col_btn">
+                        <a href="article.html" class="btn btn-sm btn-right">
+                            <span class="btn-text">Читать</span>
+                            <i class="arrow-icon icon-sm icon-right fal fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__articles_col col">
+                <div class="article__col_img">
+                    <img src="images/article_2.png" alt="">
+                </div>
+                <div class="section__articles_content">
+                    <div class="article__col_time">2 часа назад</div>
+                    <div class="article__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</div>
+                    <div class="article__col_btn">
+                        <a href="article.html" class="btn btn-sm btn-right">
+                            <span class="btn-text">Читать</span>
+                            <i class="arrow-icon icon-sm icon-right fal fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__articles_col col">
+                <div class="article__col_img">
+                    <img src="images/article_3.png" alt="">
+                </div>
+                <div class="section__articles_content">
+                    <div class="article__col_time">2 часа назад</div>
+                    <div class="article__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</div>
+                    <div class="article__col_btn">
+                        <a href="article.html" class="btn btn-sm btn-right">
+                            <span class="btn-text">Читать</span>
+                            <i class="arrow-icon icon-sm icon-right fal fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__articles_col col">
+                <div class="article__col_img">
+                    <img src="images/article_4.png" alt="">
+                </div>
+                <div class="section__articles_content">
+                    <div class="article__col_time">2 часа назад</div>
+                    <div class="article__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</div>
+                    <div class="article__col_btn">
+                        <a href="article.html" class="btn btn-sm btn-right">
+                            <span class="btn-text">Читать</span>
+                            <i class="arrow-icon icon-sm icon-right fal fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__articles_col col">
+                <div class="article__col_img">
+                    <img src="images/article_1.png" alt="">
+                </div>
+                <div class="section__articles_content">
+                    <div class="article__col_time">2 часа назад</div>
+                    <div class="article__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</div>
+                    <div class="article__col_btn">
+                        <a href="article.html" class="btn btn-sm btn-right btn-right">
+                            <span class="btn-text">Читать</span>
+                            <i class="arrow-icon icon-sm icon-right fal fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__articles_col col">
+                <div class="article__col_img">
+                    <img src="images/article_1.png" alt="">
+                </div>
+                <div class="section__articles_content">
+                    <div class="article__col_time">2 часа назад</div>
+                    <div class="article__col_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</div>
+                    <div class="article__col_btn">
+                        <a href="article.html" class="btn btn-sm btn-right btn-right">
+                            <span class="btn-text">Читать</span>
+                            <i class="arrow-icon icon-sm icon-right fal fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section__about section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="section__about_content">
+                    <h3 class="section__about_title section_title">О проекте</h3>
+                    <p class="section__about_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt quam et nibh semper aliquam. Mauris pretium nunc quis libero porttitor sodales. Maecenas molestie lacinia eros ut scelerisque. Maecenas sed purus non neque suscipit suscipit. Fusce dictum dignissim commodo. </p>
+                    <p class="section__about_info">Mauris magna orci, maximus eget tristique id, consectetur sed sapien. Proin congue in orci id pellentesque. Praesent malesuada rutrum libero, et posuere enim elementum imperdiet.</p>
+                    <p class="section__about_info">
+                        Sed tempus pretium massa, vitae maximus metus tincidunt non. Morbi fermentum tellus vel augue iaculis, at tempor mauris pretium. Nunc quis rutrum quam. Etiam enim odio, porttitor in urna a, interdum dictum dolor. Mauris imperdiet arcu a diam luctus cursus. Suspendisse sodales pharetra risus suscipit dictum. </p>
+                    <p class="section__about_info">Maecenas consectetur nunc nec orci porta ultricies. Integer suscipit tortor id erat commodo, ac rutrum tellus efficitur. Cras tortor ante, ornare ut pretium sit amet, vestibulum id mi. Nulla sapien ligula, tristique varius interdum a, blandit sit amet erat. In.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer text-center" >
+    <div class="container">
+        <div class="section__footer_content">
+            <p class="footer__info">Информация, размещенная на портале forex-otzyvi.ru, носит ознакомительный характер. Администрация портала не несет ответственности за потерю финансовых средств клиентами, а также возможный причиненный им вред в связи с опубликованными данными, включая упущенную прибыль. Каждый пользователь портала самостоятельно принимает решение о начале сотрудничества с представленными в Рейтингах брокерами или прекращении сотрудничества с ними.</p>
+            <p class="footer__info">
+                Также следует помнить, что операции, связанные с деятельностью на финансовых рынках, предполагают высокий уровень риска. В связи с этим, перед началом торговли необходимо удостовериться в наличии достаточного опыта и знаний во избежание возможных убытков.</p>
+        </div>
+    </div>
+</footer>
+<div id="reviews-modal" class="modal text-center">
+    <div class="modal-content">
+        <div class="modal__title">
+            <h3>Оставьте свой отзыв</h3>
+        </div>
+        <form action="/" method="post">
+            <div class="modal__container">
+                <button type="button" class="modal-close close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="icon fal fa-times"></i>
+                    </span>
+                </button>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="user_name" placeholder="Ваше имя" name="uname" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="user_e-mail" placeholder="Ваш E-mail" name="e-mail" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control form-textarea" id="user_review" placeholder="Ваш отзыв" name="review" required></textarea>
+                </div>
+                <div class="modal__rating">
+                    <div class="modal__rating_title">Оцените брокера</div>
+                    <fieldset class="rating modal__rating_stars">
+                        <input class="rating__item" type="radio" id="star5" name="rating" value="5" /><label class = "full star-label" for="star5"></label>
+                        <input class="rating__item" type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half star-label" for="star4half"></label>
+                        <input class="rating__item" type="radio" id="star4" name="rating" value="4" /><label class = "full star-label" for="star4"></label>
+                        <input class="rating__item" type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half star-label" for="star3half"></label>
+                        <input class="rating__item" type="radio" id="star3" name="rating" value="3" /><label class = "full star-label" for="star3"></label>
+                        <input class="rating__item" type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half star-label" for="star2half"></label>
+                        <input class="rating__item" type="radio" id="star2" name="rating" value="2" /><label class = "full star-label" for="star2"></label>
+                        <input class="rating__item" type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half star-label" for="star1half"></label>
+                        <input class="rating__item" type="radio" id="star1" name="rating" value="1" /><label class = "full star-label" for="star1"></label>
+                        <input class="rating__item" type="radio" id="starhalf" name="rating" value="half" /><label class="half star-label" for="starhalf"></label>
+                    </fieldset>
+                </div>
+                <div class="modal__submit">
+                    <button type="submit" class="btn btn-round btn-lg modal-btn">Отправить</button>
+                </div>
+                <div class="form-checkbox">
+                    <input type="checkbox" class="modal-checkbox" id="modal-checkbox">
+                    <label class="modal-checkbox-label" for="modal-checkbox">Я подтверждаю, что все указанные мною в отзыве данные верны, и не содержат ненормативной лексики, либо другой некорректной информации, которая может повлиять на репутацию портала Brokers Otzyvi.</label>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/scrollspy.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
